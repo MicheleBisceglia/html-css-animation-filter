@@ -107,9 +107,20 @@
 
 .ex-10-icon {
     font-size: 60px;
+/* Esercizio 10 */
+    animation: rotation 1s linear infinite;
 }
+@keyframes rotation {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/* /Esercizio 10 */
+
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
+/* /Esercizio 11 */
 }
 .ex-12-button, .ex-13-button {
     position: relative;
