@@ -117,11 +117,26 @@
 }
 /* /Esercizio 10 */
 
-/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
-/* /Esercizio 11 */
 }
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: halfturn 2s linear;
+}
+@keyframes halfturn {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+/* /Esercizio 11 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
